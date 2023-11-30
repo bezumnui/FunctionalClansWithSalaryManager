@@ -32,7 +32,6 @@ public class SalaryEvents implements EventListener, Listener {
     }
     @EventHandler
     public void onSalaryEvent(OnSalaryEvent event) {
-        System.out.println("CLANS");
         String clanName = Member.getClan(event.getPlayer().getName());
         if (clanName == null) return;
         int tax = Clan.getTax(clanName);

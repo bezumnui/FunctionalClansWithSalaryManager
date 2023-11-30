@@ -42,7 +42,6 @@ public final class Main extends JavaPlugin {
             return;
         }
         if (getServer().getPluginManager().getPlugin("SalaryManager") != null) {
-            System.out.println("SalaryEvents");
             getServer().getPluginManager().registerEvents(new SalaryEvents(), this);
         }
 
