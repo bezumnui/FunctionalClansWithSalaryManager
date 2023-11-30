@@ -1,8 +1,10 @@
 # SalaryManager
 ![image](https://github.com/bezumnui/FunctionalClansWithSalaryManager/assets/57602929/8e3b8f07-4104-4b48-beb3-b6f5a098524d)
 
-# TODAYS only ua_RU lamguage is supported. Wait for future updates
+# TODAYS only ua_RU language is supported. Wait for future updates
+
 # Compiled jars here:
+
 https://github.com/bezumnui/FunctionalClansWithSalaryManager/releases/tag/SNAPSHOT
 
 Firstly, if you want to edit source code you should to compile dependencies:
