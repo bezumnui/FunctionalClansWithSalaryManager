@@ -1,5 +1,6 @@
 # SalaryManager
-![image](https://github.com/bezumnui/FunctionalClansWithSalaryManager/assets/57602929/8e3b8f07-4104-4b48-beb3-b6f5a098524d)
+![image](https://github.com/bezumnui/FunctionalClansWithSalaryManager/assets/57602929/5c8efa50-066b-4b0b-b84d-b36085428ef3)
+
 
 # TODAYS only ua_RU language is supported. Wait for future updates
 
