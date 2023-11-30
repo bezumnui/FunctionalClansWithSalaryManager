@@ -91,5 +91,11 @@
             <version>2.11.3</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>me.ford</groupId>
+            <artifactId>salarymanager</artifactId>
+            <version>0.5.5</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>

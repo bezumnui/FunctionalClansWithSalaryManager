@@ -6,6 +6,7 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import ru.oshifugo.functionalclans.command.AdminClanCommands;
 import ru.oshifugo.functionalclans.command.ClanCommands;
 import ru.oshifugo.functionalclans.events.Kill;
+import ru.oshifugo.functionalclans.events.SalaryEvents;
 import ru.oshifugo.functionalclans.sql.SQLite;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -40,6 +41,11 @@ public final class Main extends JavaPlugin {
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
+        if (getServer().getPluginManager().getPlugin("SalaryManager") != null) {
+            System.out.println("SalaryEvents");
+            getServer().getPluginManager().registerEvents(new SalaryEvents(), this);
+        }
+
         getCommand("clan").setExecutor(new ClanCommands());
         getServer().getPluginCommand("clan").setTabCompleter(new CommandsTab());
         getCommand("fc").setExecutor(new AdminClanCommands());
