@@ -5,7 +5,7 @@
 
 # Compiled jars here:
 
-https://github.com/bezumnui/FunctionalClansWithSalaryManager/releases/tag/SNAPSHOT
+[SNAPSHOT](https://github.com/bezumnui/FunctionalClansWithSalaryManager/releases/tag/SNAPHOT_1.0.5.7.2)
 
 Firstly, if you want to edit source code you should to compile dependencies:
 
