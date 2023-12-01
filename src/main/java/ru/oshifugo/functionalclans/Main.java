@@ -12,17 +12,23 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import ru.oshifugo.functionalclans.tabcomplete.AdminTab;
 import ru.oshifugo.functionalclans.tabcomplete.CommandsTab;
+import xyz.xenondevs.invui.InvUI;
+import xyz.xenondevs.invui.gui.Gui;
+
 import java.io.File;
 import java.util.Arrays;
 import java.util.HashMap;
 
 public final class Main extends JavaPlugin {
     public static Main instance;
+    public static Gui gui;
+
     private static Economy econ = null;
     public static HashMap<String, String[]> placeholders_config = new HashMap<>();
     @Override
     public void onEnable() {
         long time = System.currentTimeMillis();
+//        gui = Gui.normal();
         instance = this;
         saveDefaultConfig();
         SQLite.connect();
